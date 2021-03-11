@@ -127,14 +127,15 @@ main {
 }
 
 @media screen and (min-width: 992px) {
-  /* main {
+  main {
     display: flex;
     justify-content: center;
-  } */
+    align-items: center;
+  }
   .testimonials {
     max-width: 110rem;
     margin: 0 auto;
-    padding: 6rem 0;
+    padding: 0;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
   }
