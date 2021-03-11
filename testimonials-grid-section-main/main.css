@@ -126,6 +126,12 @@ main {
   background: var(--black-blue);
 }
 
+.attribution {
+  position: absolute;
+  bottom: 1rem;
+  color: var(--black-blue);
+}
+
 @media screen and (min-width: 992px) {
   main {
     display: flex;
